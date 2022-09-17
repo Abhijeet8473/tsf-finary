@@ -1,0 +1,158 @@
+    html {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    /* curved part of display-> css */
+    
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+    /* splash screen css starts here  */
+    
+    #loading {
+        position: fixed;
+        width: 90%;
+        height: 100px;
+        background: #cec8c8 url('https://media2.giphy.com/media/kcQ7X0ZbyJiyLATAHc/200w.webp?cid=ecf05e47ma94hsza11j5j8nvypfxmtwrr6jea3o63goiesm5&rid=200w.webp&ct=s') no-repeat center center;
+        z-index: 99999;
+    }
+    /* splash screen css ends here  */
+    /* navbar css starts here  */
+    
+    .bg-light {
+        background: rgb(94, 20, 205)!important;
+    }
+    
+    .navbar {
+        position: fixed;
+        width: 100%;
+        display: flex;
+    }
+    
+    .navbar-brand {
+        font-family: 'Martel Sans';
+        font-size: 2.5rem;
+        color: white!important;
+    }
+    
+    .nav-link {
+        color: white!important;
+        font-family: 'Martel Sans';
+        font-weight: 400;
+        font-size: 5px;
+    }
+    
+    .nav-link:hover {
+        border-radius: 10%;
+        background-color: gray;
+    }
+    /* navbar css ends here  */
+    /* here content css starts here  */
+    
+    .hero-content {
+        height: 88vh;
+        background-color: #f5f5f5;
+        padding: 3rem;
+    }
+    
+    #p1 {
+        color: black;
+        font-size: medium;
+    }
+    
+    .hero-img {
+        height: 60vh;
+        width: 80%;
+        margin-top: 5%;
+        background-color: transparent;
+    }
+    
+    @media only screen and (max-width: 766px) {
+        .hero-img {
+            display: none;
+        }
+    }
+    
+    .get-started {
+        border-radius: 1rem;
+        padding: 1rem 2rem;
+        font-size: 162%;
+        color: black;
+        background: white;
+        color: #2c0314!important;
+        transition: 0.3s;
+    }
+    
+    .get-started:hover {
+        text-decoration: none;
+        background: rgb(94, 20, 205)!important;
+        color: white;
+    }
+    /* here content css starts here  */
+    /* get-started-buttons css starts here*/
+    
+    .get-started-content {
+        height: 60vh;
+        background-color: #fcdad0;
+        border-top-left-radius: 42rem;
+        border-top-right-radius: 42rem;
+        border-bottom-right-radius: 42rem;
+        border-bottom-left-radius: 42rem;
+    }
+    
+    .get-started-content .row {
+        padding: 25vh 0;
+    }
+    
+    .get-started-content a {
+        border-radius: 0.5rem;
+        padding: 1rem 2rem;
+        font-size: 162%;
+        background-color: #039be5;
+        color: #fff!important;
+        transition: 0.3s;
+    }
+    
+    .get-started-content a:hover {
+        background-color: #017ab6;
+        text-decoration: none;
+    }
+    /* get-started-buttons css end here*/
+    /* footer css starts here */
+    
+    footer {
+        background: rgb(94, 20, 205)!important;
+    }
+    
+    .col-md-6 p {
+        color: white;
+    }
+    
+    .social-icons li {
+        list-style: none;
+        display: inline;
+        padding: 0.5rem;
+        margin-left: 20px;
+        margin-top: 10%;
+        color: white;
+    }
+    
+    .social-icons {
+        color: white;
+        margin-top: -9px;
+    }
+    
+    .github {
+        color: #24292e;
+        margin-top: -10%;
+    }
+    
+    .linkedin {
+        color: #0077b5;
+    }
+    
+    .google {
+        color: #D44638;
+    }
+    /* css footer ends here  */

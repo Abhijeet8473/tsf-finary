@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+    /* background-color: #d79172; */
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+
+/* navbar css starts here  */
+
+.bg-light {
+    background: rgb(94, 20, 205)!important;
+}
+
+.navbar-brand {
+    font-family: 'Martel Sans';
+    font-size: 2.5rem;
+    color: white !important;
+}
+
+.nav-link {
+    color: white!important;
+    font-family: 'Martel Sans';
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: 10%;
+}
+
+.nav-link:hover {
+    background-color: gray;
+    border-radius: 10%;
+}
+
+
+/* navbar css ends here  */
+
+.my-inform {
+    padding: 3rem 5rem;
+    text-align: center;
+    padding-right: 200px;
+    margin-left: 100px;
+    color: black;
+}
+
+.img {
+    margin-top: 200px;
+    margin-bottom: 100pxz;
+}
+
+.table-inform {
+    background-color: gray !important;
+}
+
+.btn-outline-dark {
+    border-radius: 1rem;
+    padding: 1rem 1.2rem;
+    background-color: transparent;
+    color: black!important;
+    margin-left: 6px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+    font-weight: 400;
+}
+
+.btn-outline-dark:hover {
+    color: black !important;
+    background: rgb(94, 20, 205)!important;
+}
+
+#transactionHistory {
+    margin-top: 12%!important;
+    color: rgb(39, 112, 176);
+}
+
+.modal-content {
+    background-color: #aea8c3;
+}
+
+.send {
+    background-color: #aea8c3;
+}
+
+.modal-header {
+    color: black;
+}
+
+button.btn.btn-success {
+    color: black;
+}
+
+.span {
+    background-color: rgb(15, 14, 14);
+}
+
+button.btn.btn-secondary {
+    color: red;
+}
